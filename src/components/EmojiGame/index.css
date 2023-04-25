@@ -1,0 +1,25 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to left, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.emojis-container {
+  list-style-type: None;
+  padding-top: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 500px;
+}
+@media screen and (min-width: 768px) {
+  .emojis-container {
+    width: 600px;
+  }
+}

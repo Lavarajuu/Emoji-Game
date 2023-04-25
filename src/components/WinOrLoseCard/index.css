@@ -1,0 +1,78 @@
+/* Write your code here. */
+.win-or-loss-container {
+  background-color: transparent;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin-top: 60px;
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px#dfdfdf;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.image {
+  width: 200px;
+  height: 250px;
+}
+.result-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.score-type {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.score {
+  color: #6a59ff;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.button {
+  background-color: #ffce27;
+  font-family: 'Roboto';
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  margin-top: 20px;
+  border-width: 0px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .win-or-loss-container {
+    flex-direction: row;
+    padding: 40px;
+  }
+  .image {
+    width: 200px;
+    height: 250px;
+    order: 1;
+  }
+  .result-container {
+    margin-right: 25px;
+  }
+  .score {
+    font-size: 30px;
+  }
+  .button {
+    font-size: 12px;
+  }
+}
